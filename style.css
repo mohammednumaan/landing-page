@@ -1,0 +1,72 @@
+.nav{
+    background-color: #1F2937;
+
+}
+
+.nav h1{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 140px ;
+    
+}
+
+.nav .container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* LINKS */
+
+ul{
+    display: flex;
+    list-style: none;
+    
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 9px;
+}
+
+
+/* sign-up */
+
+.sign-up{
+    background-color:  #1F2937 ;
+}
+
+.container-signup{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sign-up .title{
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #F9FAF8;
+    font-weight: 1000;
+    margin-left: 140px;
+    margin-top: 200px;
+}
+ br{
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #F9FAF8;
+    font-weight: 1000;
+    margin-left: 140px;
+}
+
+.sub-title{
+    margin-left: 140px;
+    margin-top: -45px;
+
+
+}
