@@ -40,6 +40,7 @@ a{
 
 .sign-up{
     background-color:  #1F2937 ;
+    height: 550px;
 }
 
 .container-signup{
@@ -56,17 +57,24 @@ a{
     margin-left: 140px;
     margin-top: 200px;
 }
- br{
-    font-size: 48px;
-    font-family: sans-serif;
-    color: #F9FAF8;
-    font-weight: 1000;
-    margin-left: 140px;
-}
 
 .sub-title{
     margin-left: 140px;
     margin-top: -45px;
+    font-family: sans-serif;
+    color: #bdbec0;
+    font-size: 18px;
 
+}
 
+button{
+    align-self: flex-start;
+    margin-left: 140px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    
 }
