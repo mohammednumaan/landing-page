@@ -9,6 +9,7 @@
     font-weight: bold;
     color: white;
     margin-left: 140px ;
+    line-height: 1.2;
     
 }
 
@@ -16,24 +17,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
+
+.links{
+    margin-right: 200px;
+    color: white;
+    font-family: sans-serif;  
+}
+
 
 
 /* LINKS */
 
 ul{
     display: flex;
-    list-style: none;
+    gap: 30px;
     
-
+    list-style: none;
 }
 
 a{
     color: white;
     text-decoration: none;
-    margin: 0 10px;
-    padding: 9px;
 }
+a:hover{
+    color: #bdbec0;   
+}
+
 
 
 /* sign-up */
@@ -76,5 +87,27 @@ button{
     width: 100px;
     background-color: #3882F6;
     color: white;
+    
+}
+
+.signup-image{
+    display:flex ;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 250px;
+    margin-top: -220px;
+
+}
+
+.main-image{
+    border: 2px solid gray;
+    background-color: gray;
+    height:200px;
+    width: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
     
 }
