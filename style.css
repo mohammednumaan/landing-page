@@ -224,3 +224,17 @@ button{
     border-radius: 15px;
     
 }
+
+.btn button{
+    border-radius: 10px;
+    border: 2px solid white;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: 300px;
+}
