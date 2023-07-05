@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .nav{
     background-color: #1F2937;
 
@@ -60,7 +63,7 @@ a:hover{
 
 }
 
-.sign-up .title{
+.sign-up .head{
     font-size: 48px;
     font-family: sans-serif;
     color: #F9FAF8;
@@ -109,5 +112,115 @@ button{
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
+    
+}
+
+
+/* information */
+
+.information{
+    text-align: center;
+    height: 400px;
+}
+.container-info{
+    display: flex;
+    flex-direction: column;
+      
+}
+
+
+.information .title{
+    font-family: sans-serif;
+}
+
+.img1{
+    border: 3px solid blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.info-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    
+}
+.info{
+    max-width: 200px;
+}
+
+.text{
+    color: rgb(130, 130, 130); 
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+/* quote */
+.container-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+    
+}
+.quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+/* contact */
+
+.contact{
+    
+}
+
+.container-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 400px;
+}
+
+.now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 600px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+}
+
+.call-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 417px;
+    margin-top: -20px;
+    color: #dcdee2;
+    
+}
+
+.box{
+    background-color: #3882F6;
+    width: 900px;
+    height: 100px;
+    border-radius: 15px;
     
 }
