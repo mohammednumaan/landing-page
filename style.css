@@ -238,3 +238,13 @@ button{
     margin-top: -50px;
     margin-left: 300px;
 }
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937 ;
+    color: white;
+    font-family: sans-serif;
+    height: 100px;
+}
